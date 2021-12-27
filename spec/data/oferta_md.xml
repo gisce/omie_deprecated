@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MensajeOfertasMD xmlns="http://www.omel.es/Schemas">
+    <IdMensaje v="Mensaje_ofertas_MD_20110308"/>
+    <VerMensaje v="1"/>
+    <FechaMensaje v="2011-02-04T10:14:53"/>
+    <IdRemitente v="AAAAA"/>
+    <Oferta>
+        <IdOferta v=" Oferta_1"/>
+        <IdUnidad v="UUUU" tipo="UO" area="1"/>
+        <Validez>
+            <TipoMercado v="MD"/>
+            <Sesion fecha="2011-02-05"/>
+        </Validez>
+        <ClaseOferta v="V"/>
+        <UniPrecio v="EURO/MWh"/>
+        <Detalle>
+            <Dia v="2011-02-05"/>
+            <Blq num="1">
+                <Per v="1"/>
+                <Ctn v="1.9"/>
+                <Prc v="180.3"/>
+            </Blq>
+            <Blq num="1">
+                <Per v="2"/>
+                <Ctn v="2.4"/>
+                <Prc v="180.3"/>
+            </Blq>
+            <Blq num="1">
+                <Per v="3"/>
+                <Ctn v="2.4"/>
+                <Prc v="180.3"/>
+            </Blq>
+            <Blq num="1">
+                <Per v="4"/>
+                <Ctn v="2.4"/>
+                <Prc v="180.3"/>
+            </Blq>
+            <Blq num="1">
+                <Per v="5"/>
+                <Ctn v="2.4"/>
+                <Prc v="180.3"/>
+            </Blq>
+            <Blq num="1">
+                <Per v="6"/>
+                <Ctn v="2.4"/>
+                <Prc v="180.3"/>
+            </Blq>
+            <Blq num="1">
+                <Per v="7"/>
+                <Ctn v="2.4"/>
+                <Prc v="180.3"/>
+            </Blq>
+            <Blq num="1">
+                <Per v="8"/>
+                <Ctn v="2.4"/>
+                <Prc v="180.3"/>
+            </Blq>
+            <Blq num="1">
+                <Per v="9"/>
+                <Ctn v="2.4"/>
+                <Prc v="180.3"/>
+            </Blq>
+            <Blq num="1">
+                <Per v="10"/>
+                <Ctn v="2.4"/>
+                <Prc v="180.3"/>
+            </Blq>
+            <Blq num="1">
+                <Per v="11"/>
+                <Ctn v="2.4"/>
+                <Prc v="180.3"/>
+            </Blq>
+            <Blq num="1">
+                <Per v="12"/>
+                <Ctn v="2.4"/>
+                <Prc v="180.3"/>
+            </Blq>
+            <Blq num="1">
+                <Per v="13"/>
+                <Ctn v="2.4"/>
+                <Prc v="180.3"/>
+            </Blq>
+            <Blq num="1">
+                <Per v="14"/>
+                <Ctn v="2.4"/>
+                <Prc v="180.3"/>
+            </Blq>
+            <Blq num="1">
+                <Per v="15"/>
+                <Ctn v="2.4"/>
+                <Prc v="180.3"/>
+            </Blq>
+            <Blq num="1">
+                <Per v="16"/>
+                <Ctn v="2.4"/>
+                <Prc v="180.3"/>
+            </Blq>
+            <Blq num="1">
+                <Per v="17"/>
+                <Ctn v="2.4"/>
+                <Prc v="180.3"/>
+            </Blq>
+            <Blq num="1">
+                <Per v="18"/>
+                <Ctn v="2.4"/>
+                <Prc v="180.3"/>
+            </Blq>
+            <Blq num="1">
+                <Per v="19"/>
+                <Ctn v="2.4"/>
+                <Prc v="180.3"/>
+            </Blq>
+            <Blq num="1">
+                <Per v="20"/>
+                <Ctn v="2.4"/>
+                <Prc v="180.3"/>
+            </Blq>
+            <Blq num="1">
+                <Per v="21"/>
+                <Ctn v="2.4"/>
+                <Prc v="180.3"/>
+            </Blq>
+            <Blq num="1">
+                <Per v="22"/>
+                <Ctn v="2.4"/>
+                <Prc v="180.3"/>
+            </Blq>
+            <Blq num="1">
+                <Per v="23"/>
+                <Ctn v="2.4"/>
+                <Prc v="180.3"/>
+            </Blq>
+            <Blq num="1">
+                <Per v="24"/>
+                <Ctn v="2.4"/>
+                <Prc v="180.3"/>
+            </Blq>
+            <Blq num="1">
+                <Per v="25"/>
+                <Ctn v="2.4"/>
+                <Prc v="180.3"/>
+            </Blq>
+        </Detalle>
+    </Oferta>
+</MensajeOfertasMD>
