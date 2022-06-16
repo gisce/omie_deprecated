@@ -11,6 +11,7 @@ from datetime import datetime
 from dateutil.relativedelta import relativedelta
 from pytz import timezone
 
+from .archives import P48Cierre
 
 _ROOT = os.path.abspath(os.path.dirname(__file__))
 

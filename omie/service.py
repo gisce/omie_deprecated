@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import json
 
 from libsaas import http
@@ -5,12 +6,14 @@ from libsaas.services import base
 
 
 class Omie(base.Resource):
-    """Omie Service API.
-    :param token: token to access the API
+    """
+    OMIE Service API.
     """
     def __init__(self, token):
+        # TODO Add OMIE apiroot
+        # TODO Add OMIE apiversion
         self.token = token
-        self.apiroot = 'https://api.esios.ree.es'
+        self.apiroot = 'https://'
         self.version = 'v2'
         self.add_filter(self.use_json)
         self.add_filter(self.accepted_version)
@@ -25,15 +28,9 @@ class Omie(base.Resource):
         request.headers['Authorization'] = 'Token token="{0}"'.format(self.token)
 
     def accepted_version(self, request):
-        request.headers['Accept'] = (
-            'application/json; application/vnd.esios-api-{0}+json'
-        ).format(self.version)
+        # TODO add OMIE API version check
+        request.headers['Accept'] = 'application/json; application/vnd.esios-api-{0}+json'.format(self.version)
 
     def get_url(self):
         return self.apiroot
 
-    @base.resource(indicators.ProfilePVPC20A)
-    def profile_pvpc_20A(self):
-        """Get the profiles to invoice PVPC for 2.0A
-        """
-        return indicators.ProfilePVPC20A(self)

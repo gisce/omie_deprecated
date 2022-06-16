@@ -1,7 +1,7 @@
 OMIE API
 ==========
 
-Interacts with OMIE API to validate and publish offers in its Daily Market.
+Interacts with OMIE API to retrieve data and to validate and publish offers in its Daily Market.
 
 Usage
 ------
