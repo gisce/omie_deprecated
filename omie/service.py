@@ -4,6 +4,8 @@ import json
 from libsaas import http
 from libsaas.services import base
 
+from omie import archives
+
 
 class Omie(base.Resource):
     """
@@ -34,3 +36,8 @@ class Omie(base.Resource):
     def get_url(self):
         return self.apiroot
 
+    @base.resource(archives.MAJ)
+    def maj(self):
+        """Get the MAJ file
+        """
+        return archives.MAJ(self)
